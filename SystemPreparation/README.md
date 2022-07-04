@@ -8,4 +8,4 @@ The system preparation process cocnists of:
 a. Equilibration under a NVT ensemble
 b. Equilibiration under a NPT ensemble
 
-==This folder contain .ipynb and .py extentions for the same script. The .ipynb in case you want to see the graphs plotted, but it's not suitable to run a long simulation process==
+***This folder contain .ipynb and .py extentions for the same script. The .ipynb in case you want to see the graphs plotted, but it's not suitable to run a long simulation process***
