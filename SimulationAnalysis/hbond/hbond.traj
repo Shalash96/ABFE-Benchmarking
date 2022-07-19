@@ -1,0 +1,9 @@
+parm /the/path/to/your/prm7/file
+trajin /the/path/to/your/nc/file
+hbond All out All.hbvtime.dat solventdonor :WAT solventacceptor :WAT@O avgout All.UU.avg.dat solvout All.UV.avg.dat bridgeout All.bridge.avg.dat
+run
+hbond contacts :start-end avgout avg.dat series uuseries hbond.gnu nointramol
+run
+lifetime contacts[solutehb] out contacts-lifetime.dat
+run
+exit
