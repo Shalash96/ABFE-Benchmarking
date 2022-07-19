@@ -1,0 +1,7 @@
+parm the/path/to/your/prm7/file
+trajin /the/path/to/your/nc/file
+
+# this will calaculate the RMSD for the ligand, as it has the number 1
+rms ToFirst :1&!@H= first out ligand.agr mass
+run
+quit

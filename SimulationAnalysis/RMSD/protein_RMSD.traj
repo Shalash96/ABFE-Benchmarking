@@ -1,0 +1,7 @@
+parm the/path/to/your/prm7/file
+trajin /the/path/to/your/nc/file
+
+# this will calaculate the RMSD for the protein in my system, as it has the numbering from 2 to 167
+rms ToFirst :2-167!&@H= first out protein.agr mass
+run
+quit
