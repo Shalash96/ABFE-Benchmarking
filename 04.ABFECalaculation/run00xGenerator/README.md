@@ -7,13 +7,13 @@ In our group they create the files and folder required to run the ABFE calculati
  - Then will ask you if u have a txt file that contains ur boresch restraints if not u will pass the nc file to calaculate it for you
 
 
-After you submit these files the whole process will be carried out for you, where
+After you submit these files the whole process will be carried out for you, where:
  - The prm7 and rst7 files will be copied to the input folder of vanish, discharge and restrain with the name of SYSTEM
  - the morphs files will be created and transferred to the crossponding correct folder
- - Boresch restraints values willbe calculated and save in txt file
+ - Boresch restraints values will be calculated and save in txt file
  - Also the graphs and charts from the .ipynb file will be saved as png, as i changed it to run as a normal .py file
- - Also there was a small bug in this script where u have everytime to change the value of iteration loop for plotting the graphs by hand to match the same number of the frames in the nc file, so i made it to change automatically.
- - In case of bound or all the cfg file will be edited and updated by the new boresch restraints values that are saved to the txt file or from the txt file that u passed throught the terminal 
+ - Also there was a small bug in this script where u have everytime to change the value of iteration loop for plotting the graphs by hand to match the same number of the   frames in the nc file, so i made it to change automatically.
+ - In case of bound or all the cfg file will be edited and updated by the new boresch restraints values that are saved to the txt file or from the txt file that u passed   throught the terminal 
  - Then finally the templates folder will be copied to the numbers of runs you specified
  - Then the run_all.sh file will be copied to the free and bound folders that contain the run00x folders. 
 
