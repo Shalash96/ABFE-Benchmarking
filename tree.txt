@@ -1,0 +1,55 @@
+.
+├── ABFE
+│   ├── README.md
+│   └── run00xGenerator
+│       ├── anchors_ordered_sd.txt
+│       ├── boresch_dof_avg_sd.png
+│       ├── boresch_dof_dict.txt
+│       ├── boresch_dof_hist.png
+│       ├── boreshRestraints.py
+│       ├── bound
+│       ├── bound_template
+│       ├── editCFG.py
+│       ├── fileTransfer.py
+│       ├── free
+│       ├── free_template
+│       ├── handelMORPHs.py
+│       ├── MORPH.discharge.pert
+│       ├── morph_discharge.py
+│       ├── MORPH.dummy.pert
+│       ├── morph_dummy.py
+│       ├── MORPH.vanish.pert
+│       ├── morph_vanish.py
+│       ├── numberOfRuns.py
+│       ├── README.md
+│       ├── run00xGenerator.py
+│       ├── run_all.sh
+│       ├── selected_pairs_boresch.txt
+│       ├── SYSTEM.top
+│       └── the_boresch_parm_used.txt
+├── LICENSE
+├── README.md
+├── SimulationAnalysis
+│   ├── hbond
+│   │   ├── All.UU.avg.dat
+│   │   ├── All.UU.avg_lig.dat
+│   │   ├── findLIG.sh
+│   │   ├── hbond.traj
+│   │   └── README.md
+│   ├── README.md
+│   └── RMSD
+│       ├── ligand_RMSD.traj
+│       ├── protein_RMSD.traj
+│       ├── README.md
+│       ├── rmsd_ligand.agr
+│       └── rmsd_protien.agr
+├── SimulationProcess
+│   ├── README.md
+│   └── simulation.py
+├── SystemPreparation
+│   ├── README.md
+│   ├── systemPreparation.ipynb
+│   └── systemPreparation.py
+└── tree.txt
+
+11 directories, 41 files
