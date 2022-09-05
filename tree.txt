@@ -1,5 +1,28 @@
 .
-├── ABFE
+├── 00.HelpingScripts
+│   └── Convert_sdf_and pdf_to_amb.py
+├── 01.SystemPreparation
+│   ├── README.md
+│   ├── systemPreparation.ipynb
+│   └── systemPreparation.py
+├── 02.SimulationProcess
+│   ├── README.md
+│   └── simulation.py
+├── 03.SimulationAnalysis
+│   ├── hbond
+│   │   ├── All.UU.avg.dat
+│   │   ├── All.UU.avg_lig.dat
+│   │   ├── findLIG.sh
+│   │   ├── hbond.traj
+│   │   └── README.md
+│   ├── README.md
+│   └── RMSD
+│       ├── ligand_RMSD.traj
+│       ├── protein_RMSD.traj
+│       ├── README.md
+│       ├── rmsd_ligand.agr
+│       └── rmsd_protien.agr
+├── 04.ABFECalaculation
 │   ├── README.md
 │   └── run00xGenerator
 │       ├── anchors_ordered_sd.txt
@@ -8,11 +31,24 @@
 │       ├── boresch_dof_hist.png
 │       ├── boreshRestraints.py
 │       ├── bound
+│       │   ├── run001
+│       │   ├── run002
+│       │   └── run_all.sh
 │       ├── bound_template
+│       │   ├── discharge
+│       │   ├── restrain
+│       │   ├── runme.sh
+│       │   └── vanish
 │       ├── editCFG.py
 │       ├── fileTransfer.py
 │       ├── free
+│       │   ├── run001
+│       │   ├── run002
+│       │   └── run_all.sh
 │       ├── free_template
+│       │   ├── discharge
+│       │   ├── runme.sh
+│       │   └── vanish
 │       ├── handelMORPHs.py
 │       ├── MORPH.discharge.pert
 │       ├── morph_discharge.py
@@ -29,27 +65,6 @@
 │       └── the_boresch_parm_used.txt
 ├── LICENSE
 ├── README.md
-├── SimulationAnalysis
-│   ├── hbond
-│   │   ├── All.UU.avg.dat
-│   │   ├── All.UU.avg_lig.dat
-│   │   ├── findLIG.sh
-│   │   ├── hbond.traj
-│   │   └── README.md
-│   ├── README.md
-│   └── RMSD
-│       ├── ligand_RMSD.traj
-│       ├── protein_RMSD.traj
-│       ├── README.md
-│       ├── rmsd_ligand.agr
-│       └── rmsd_protien.agr
-├── SimulationProcess
-│   ├── README.md
-│   └── simulation.py
-├── SystemPreparation
-│   ├── README.md
-│   ├── systemPreparation.ipynb
-│   └── systemPreparation.py
 └── tree.txt
 
-11 directories, 41 files
+21 directories, 46 files
